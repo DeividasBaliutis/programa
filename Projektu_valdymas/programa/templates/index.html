@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Programa</h1>
+  <p>Sveiki atvykite i superprograma</p>
+  <p>Šiuo metu turime:</p>
+  <ul>
+    <li><strong>Klientu:</strong> {{ num_klientai }}</li>
+    <li><strong>Darbuotoju:</strong> {{ num_darbuotojai }}</li>
+    <li><strong>Darbu:</strong> {{ num_darbai }}</li>
+    <li><strong>Saskaitu:</strong> {{ num_saskaitos }}</li>
+    <li><strong>Projektu:</strong> {{ num_projektai }}</li>
+  </ul>
+{% endblock %}
